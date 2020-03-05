@@ -27,6 +27,7 @@ public class UserController {
         this.userService = userService;
     }
 
+    /*
     @GetMapping("")
     public List<User> getUsers() {
         log.info("process=get-users");
@@ -60,5 +61,6 @@ public class UserController {
         log.info("process=delete-user, user_id={}", id);
         userService.deleteUser(id);
     }
+    */
 
 }

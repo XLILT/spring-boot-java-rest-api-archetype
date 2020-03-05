@@ -3,6 +3,7 @@
 #set( $symbol_escape = '\' )
 package ${package}.utils;
 
+/*
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.util.TestPropertyValues;
@@ -42,3 +43,8 @@ public abstract class BaseIntegrationTest {
         }
     }
 }
+*/
+
+public class BaseIntegrationTest {
+}
+

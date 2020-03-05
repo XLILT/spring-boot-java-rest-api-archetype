@@ -11,6 +11,7 @@ import java.util.UUID;
 import static java.lang.String.format;
 
 public class TestHelper {
+    /*
     public static User buildUser() {
         String uuid = UUID.randomUUID().toString();
         return User.builder()
@@ -28,4 +29,5 @@ public class TestHelper {
                 .email(format("someone-%s@gmail.com", uuid))
                 .build();
     }
+    */
 }
