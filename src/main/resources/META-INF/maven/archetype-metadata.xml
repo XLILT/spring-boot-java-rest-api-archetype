@@ -59,21 +59,5 @@
         <include>docker-compose.yml</include>
       </includes>
     </fileSet>
-
-    <fileSet filtered="false" encoding="UTF-8">
-      <directory>config</directory>
-      <includes>
-        <include>logstash.conf</include>
-        <include>micrometer-spring-throughput_rev2.json</include>
-        <include>jvm-micrometer_rev2.json</include>
-      </includes>
-    </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
-      <directory>config</directory>
-      <includes>
-        <include>prometheus.yml</include>
-      </includes>
-    </fileSet>
-
   </fileSets>
 </archetype-descriptor>
